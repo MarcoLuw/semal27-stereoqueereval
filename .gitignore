@@ -1,12 +1,12 @@
 # === Data (never commit — governed by Data Usage Agreement) ===
-data/
-datasets/
-*.tsv
-*.csv
-*.zip
-*.tar
-*.tar.gz
-*.7z
+# data/
+# datasets/
+# *.tsv
+# *.csv
+# *.zip
+# *.tar
+# *.tar.gz
+# *.7z
 
 # === Model artifacts / checkpoints ===
 *.pt
