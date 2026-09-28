@@ -1,0 +1,56 @@
+# === Data (never commit — governed by Data Usage Agreement) ===
+data/
+datasets/
+*.tsv
+*.csv
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# === Model artifacts / checkpoints ===
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pb
+*.onnx
+*.bin
+*.safetensors
+checkpoints/
+runs/
+wandb/
+outputs/
+logs/
+
+# === Jupyter / Colab ===
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# === Secrets / credentials ===
+.env
+*.key
+*.json.credentials
+service_account*.json
+kaggle.json
+
+# === OS / editor ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
